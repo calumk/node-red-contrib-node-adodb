@@ -3,6 +3,8 @@
 
 A Node-Red node to read and write a local adodb database.
 
+> Consider in BETA!
+
 Install
 -------
 
@@ -12,13 +14,11 @@ Run the following command in your Node-RED user directory - typically `~/.node-r
 
 **Notes**:
 
-  - Version 1.x requires nodejs v12 or greater.
-  - The install process requires a compile of native code. This can take 15-20 minutes on devices like a Raspberry Pi - please be prepared to wait a long time. Also if node.js is upgraded at any point you will need to rebuild the native part manually, for example.
-
-    cd ~/.node-red
-    npm rebuild
-
+ - uses node-adodb
+ - originally forked pallet from from https://flows.nodered.org/node/node-red-node-sqlite
 Usage
 -----
 
 Allows access to a Adodb database.
+
+See https://github.com/nuintun/node-adodb/blob/master/README-EN.md for information on the connection string
