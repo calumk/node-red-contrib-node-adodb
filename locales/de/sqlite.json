@@ -1,0 +1,17 @@
+{
+    "adodb": {
+        "label": {
+            "database": "Datenbank",
+            "sqlQuery": "SQL-Abfrage",
+            "viaMsgTopic": "Via msg.topic",
+            "fixedStatement": "Fester Ausdruck",
+            "preparedStatement": "Vorbereiteter Ausdruck",
+            "batchWithoutResponse": "Batch ohne Antwort",
+            "sqlStatement": "SQL-Ausdruck (Statement)",
+            "mode": "Modus",
+            "readWriteCreate": "Lesen-Schreiben-Erzeugen",
+            "readWrite": "Lesen-Schreiben",
+            "readOnly": "Nur-Lesen"
+        }
+    }
+}

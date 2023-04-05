@@ -1,0 +1,20 @@
+{
+  "adodb": {
+    "label": {
+      "database": "Database",
+      "sqlQuery": "SQL Query",
+      "viaMsgTopic": "Via msg.topic",
+      "fixedStatement": "Fixed Statement",
+      "preparedStatement": "Prepared Statement",
+      "batchWithoutResponse": "Batch without response",
+
+      "viaMsgTopicWithResponse": "Via msg.topic With Response",
+      "viaMsgTopicWithoutResponse": "Via msg.topic Without Response",
+      "queryWithResponse": "Query With Response",
+      "queryWithoutResponse": "Query Without Response",
+
+      "sqlStatement": "SQL Statement",
+      "mode": "Mode"
+    }
+  }
+}
