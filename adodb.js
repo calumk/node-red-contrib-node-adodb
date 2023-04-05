@@ -8,32 +8,19 @@ module.exports = function(RED) {
         RED.nodes.createNode(this,n);
 
         this.dbname = n.db;
-        // this.mod = n.mode;
-        // if (n.mode === "RWC") { this.mode = sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE; }
-        // if (n.mode === "RW") { this.mode = sqlite3.OPEN_READWRITE; }
-        // if (n.mode === "RO") { this.mode = sqlite3.OPEN_READONLY; }
+
         var node = this;
 
         node.doConnect = function() {
             if (node.db) { return; }
 
-            // let connetionString = 'Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:/\MES4/\FestoMes.accdb;Persist Security Info=False;'
 
             node.db = ADODB.open(node.dbname);
-            // node.db.on('open', function() {
-            //     if (node.tick) { clearTimeout(node.tick); }
-            //     node.log("opened "+node.dbname+" ok");
-            // });
-            // node.db.on('error', function(err) {
-            //     node.error("failed to open "+node.dbname, err);
-            //     node.tick = setTimeout(function() { node.doConnect(); }, reconnect);
-            // });
+
         }
 
         node.on('close', function (done) {
-            // if (node.tick) { clearTimeout(node.tick); }
-            // if (node.db) { node.db.close(done()); }
-            // else { done(); }
+
             done()
         });
     }
