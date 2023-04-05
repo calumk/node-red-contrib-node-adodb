@@ -1,13 +1,13 @@
 {
     "name": "@calumk/node-red-contrib-node-adodb",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A adodb node for Node-RED",
     "dependencies": {
         "node-adodb": "^5.0.3"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/node-red/node-red-nodes.git",
+        "url": "https://github.com/calumk/node-red-contrib-node-adodb.git",
         "directory": "tree/master/storage/adodb"
     },
     "engines": {
