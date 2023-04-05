@@ -5,6 +5,8 @@ A Node-Red node to read and write a local adodb database.
 
 > Consider in BETA!
 
+> Windows only!
+
 Install
 -------
 
