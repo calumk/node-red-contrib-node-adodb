@@ -3,8 +3,6 @@
 
 A Node-Red node to read and write a local adodb database.
 
-> Consider in BETA!
-
 > Windows only!
 
 Install
@@ -17,7 +15,8 @@ Run the following command in your Node-RED user directory - typically `~/.node-r
 **Notes**:
 
  - uses node-adodb
- - originally forked pallet from from https://flows.nodered.org/node/node-red-node-sqlite
+ 
+ 
 Usage
 -----
 
