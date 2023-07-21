@@ -1,6 +1,6 @@
 {
     "name": "@calumk/node-red-contrib-node-adodb",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "A adodb node for Node-RED",
     "dependencies": {
         "node-adodb": "^5.0.3"
