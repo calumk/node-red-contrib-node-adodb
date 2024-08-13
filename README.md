@@ -1,4 +1,4 @@
-@calumk/node-red-node-adodb
+@calumk/node-red-contrib-node-adodb
 ====================
 
 A Node-Red node to read and write a local adodb database.
@@ -10,9 +10,12 @@ This is useful for reading/writing a .accdb file
 Install
 -------
 
-Run the following command in your Node-RED user directory - typically `~/.node-red`
+Avaliable on the Node-Red Registery : https://flows.nodered.org/node/@calumk/node-red-contrib-node-adodb
 
-    npm i --unsafe-perm @calumk/node-red-node-adodb
+
+Or Run the following command in your Node-RED user directory - typically `~/.node-red`
+
+    npm i --unsafe-perm @calumk/node-red-contrib-node-adodb
 
 **Notes**:
 
